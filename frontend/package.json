@@ -1,0 +1,23 @@
+{
+  "name": "vidosaver-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "@react-native/metro-config": "^0.84.1",
+    "react": "18.3.1",
+    "react-native": "^0.84.1",
+    "react-native-paper": "^5.12.5",
+    "socket.io-client": "^4.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "metro-react-native-babel-preset": "0.76.8"
+  }
+}

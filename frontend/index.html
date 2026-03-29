@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>⬇️ VidoSaver - Video Downloader</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo-section">
+      <div class="download-logo">⬇️</div>
+    </div>
+    <h1>VidoSaver</h1>
+    <input type="url" id="urlInput" placeholder="Paste YouTube, Instagram, Facebook URL here...">
+    <button id="downloadBtn">🚀 Download Video</button>
+    <div id="status">Ready to download! 🎥</div>
+    <div class="progress-container">
+      <div class="progress-bar">
+        <div id="progressFill" class="progress-fill"></div>
+      </div>
+    </div>
+    <a id="downloadLink" class="download-link">💾 Click to save video</a>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+

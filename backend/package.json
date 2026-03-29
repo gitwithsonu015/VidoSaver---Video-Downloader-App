@@ -1,0 +1,20 @@
+{
+  "name": "vidosaver-backend",
+  "version": "1.0.0",
+  "description": "Backend for VidoSaver video downloader using yt-dlp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.0",
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
