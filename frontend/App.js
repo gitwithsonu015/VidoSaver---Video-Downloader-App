@@ -18,7 +18,7 @@ downloadBtn.addEventListener('click', async () => {
   downloadLink.style.display = 'none';
 
   try {
-    const response = await fetch("https://vidosaver-video-downloader-app-3.onrender.com/api/download")', {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/download`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ url, directDownload: false })
